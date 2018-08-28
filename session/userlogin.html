@@ -11,10 +11,10 @@
   <form class="form-signin">
       <img class="mb-4" src="images/rflogo.png" alt="" width="72" height="72">
       <h1 class="h3 mb-3 font-weight-normal">Masuk Client</h1>
-      <label for="lg-inputEmail" class="sr-only">Username</label>
-      <input type="text" id="inputEmail" class="form-control" placeholder="Username" required autofocus>
+      <label for="inputUsername" class="sr-only">Username</label>
+      <input type="text" id="inputUsername" class="form-control" placeholder="Username"  oninvalid="this.setCustomValidity('Masukkan username anda')" oninput="setCustomValidity('')" required autofocus>
       <label for="inputPassword" class="sr-only">Password</label>
-      <input type="password" id="inputPassword" class="form-control" placeholder="Kata sandi" required>
+      <input type="password" id="inputPassword" class="form-control" placeholder="Kata sandi" oninvalid="this.setCustomValidity('Masukkan kata sandi anda')" oninput="setCustomValidity('')" required>
       <div class="checkbox mb-3">
         <label>
           <input type="checkbox" value="remember-me"> Biarkan saya masuk
