@@ -1,0 +1,19 @@
+body {
+    padding: 10px;
+}
+
+.form-signin {
+    margin: auto;
+    max-width: 640px;
+    position: relative;
+}
+.login-form-1 {
+  border-radius: 5px;
+  display: inline-block;
+}
+.main-login-form {
+  position: relative;
+}
+.input {
+    margin: 10px;
+}

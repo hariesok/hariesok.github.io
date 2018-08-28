@@ -1,0 +1,21 @@
+.carousel {
+  overflow: hidden;
+}
+.carousel-caption {
+}
+footer {
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 10px 10px 10px;
+    font-size: .7em;
+    background-color: dimgray;
+    color: aliceblue;
+        
+}
+.btn{
+    margin-bottom: 10px;
+}
+
+footer h5{
+    
+}
